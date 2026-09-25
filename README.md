@@ -57,4 +57,5 @@ Transform raw Power BI metrics & datasets into conversational insights. Powered 
 | `sql_generator`         | Deep Data Query Engine                    | Generates dynamic Python/Pandas expressions or SQL to query row-level data. |
 
 3. fwjhebfw
-4. 
+4.
+5. <img width="4102" height="6215" alt="image" src="https://github.com/user-attachments/assets/e76151ed-6848-48d0-99d1-4062b522e700" />
