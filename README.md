@@ -46,6 +46,16 @@ Transform raw Power BI metrics & datasets into conversational insights. Powered 
 └─────────────────────────────────────────────────────────┘
 
 
+
+
+AskAway Bot (Multi-Agent Conversational Analytics Engine) – LangGraph, LLM, RAG, EDA, Streamlit (Link)                                                                                     
+●	Engineered a real-time data workspace in Streamlit enabling dataset ingestion (.csv, .xlsx) with automated schema mapping to generate instant KPI cards, driver insights, and interactive visual dashboard grids.
+●	Designed an async 7-agent state graph via LangGraph powered by Groq-hosted LLMs (OpenAI/gpt-oss-120b, gpt-oss-20b), implementing dynamic triage routing to execute code generation, chart rendering, and visual skimming.
+●	Built EDA profiling workflows for duplicate removal and missing value imputation, combined with a code-gen agent (sql_generator) that converts user queries into sandboxed, executable Pandas expressions.
+●	Integrated a schema-bound Retrieval-Augmented Generation (RAG) framework that injects schema metadata, sample records, and pre-computed dashboard payloads into agent context windows for real-time natural language query answering.
+●	Implemented a cyclic Quality Critic evaluation loop in LangGraph to validate aggregation logic, enforce metric non-additivity constraints and eliminate cascading LLM hallucinations.
+
+
 2. Agent Responsibilities & Scope Alignment
 | Agent Name              | Primary Purpose                           | Core Deliverables / Behavior |
 |---|---|---|
